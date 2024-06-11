@@ -25,6 +25,15 @@ Following the Microsoft documentation.
   html {
     font-size: 12px;
   }
+
+  /*About*/
+  .about-section {
+    flex-direction: column;
+  }
+  .about-description-container {
+    width: 100%;
+    margin-top: 2rem;
+  }
 }
 
 @media (max-width: 640px) {
@@ -58,5 +67,17 @@ Following the Microsoft documentation.
   #chek-option:checked ~ .nav-options {
     height: auto;
     overflow: auto;
+  }
+
+  /*About*/
+  .about-section {
+    flex-direction: column;
+  }
+  .about-image-container img,
+  .about-description-container p {
+    width: 100%;
+  }
+  .label-list {
+    width: 90%;
   }
 }
